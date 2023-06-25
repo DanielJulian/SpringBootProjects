@@ -5,6 +5,7 @@ import org.springframework.data.relational.core.mapping.Column;
 
 import java.time.LocalDateTime;
 
+// This class is also called an Entity, because its used to map a Java object to a DB Table
 public record Content(
         @Id
         Integer id,
